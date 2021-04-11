@@ -19,6 +19,22 @@ struct ContentView: View {
                     .fill(Color.blue)
                     .blendMode(.multiply)
             }.padding()
+            ScrollView{
+                Text("版本控制學習1")
+                    .padding()
+                Text("版本控制學習1")
+                        .padding()
+                Text("版本控制學習1")
+                    .padding()
+                Text("版本控制學習1")
+                    .padding()
+                Text("版本控制學習1")
+                    .padding()
+                Text("版本控制學習1")
+                    .padding()
+                Text("版本控制學習1")
+                    .padding()
+            }
                 
         }
         
