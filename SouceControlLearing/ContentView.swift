@@ -19,21 +19,24 @@ struct ContentView: View {
                     .fill(Color.blue)
                     .blendMode(.multiply)
             }.padding()
-            ScrollView{
-                Text("版本控制學習1")
-                    .padding()
-                Text("版本控制學習1")
+            HStack {
+                Text("天竺鼠車車")
+                ScrollView{
+                    Text("版本控制學習1")
                         .padding()
-                Text("版本控制學習1")
-                    .padding()
-                Text("版本控制學習1")
-                    .padding()
-                Text("版本控制學習1")
-                    .padding()
-                Text("版本控制學習1")
-                    .padding()
-                Text("版本控制學習1")
-                    .padding()
+                    Text("版本控制學習1")
+                            .padding()
+                    Text("版本控制學習1")
+                        .padding()
+                    Text("版本控制學習1")
+                        .padding()
+                    Text("版本控制學習1")
+                        .padding()
+                    Text("版本控制學習1")
+                        .padding()
+                    Text("版本控制學習1")
+                        .padding()
+                }
             }
                 
         }
