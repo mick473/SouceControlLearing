@@ -13,6 +13,13 @@ struct ContentView: View {
             Text("版本控制學習1")
                 .padding()
             Image("下載")
+            ZStack{
+                Image("下載")
+                Rectangle()
+                    .fill(Color.blue)
+                    .blendMode(.multiply)
+            }.padding()
+                
         }
         
     }
